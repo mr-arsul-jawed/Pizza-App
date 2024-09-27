@@ -1,0 +1,139 @@
+.login-container #div_login {
+  box-shadow: 1px 5px 10px rgb(157, 167, 158);
+}
+
+.login-container #div_login:hover{
+  filter: drop-shadow(1px 10px 15px rgba(10, 6, 125, 0.925))
+}
+
+
+/* -----Side_box css---------- */
+.side_box_login {
+  width: 600px;
+  /* border: 3px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+  position: relative;
+  /* margin: auto; */
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px rgb(157, 167, 158);
+  background-color: rgba(0, 31, 63, 1);
+  color: white;
+}
+
+#side_h1_l {
+  padding: 20px;
+  display: inline-block;
+  height: 50px;
+  margin-bottom: 40px;
+  white-space: nowrap;  /* Adjust this value as needed */
+}
+
+#side_p_l {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 120px;
+  line-height: 1.5;
+
+  
+}
+
+/* -----Side_box css---------- */
+
+
+/* ------------start----------- */
+.login-container {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+#div_login {
+  flex: 1; 
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  /* background-image: url(../assets/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: white;
+  /* box-shadow: 10px 50px 100px rgba(25, 200, 50, 1); */
+  border-radius: 10px;
+  text-align: center;
+   /* position: absolute;
+  right: 120px; 
+  top: 90px;  */
+  z-index: 2;
+
+
+}
+
+#login_h2 {
+  color: rgba(0, 31, 63, 1);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+#login_input,
+input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%; 
+  max-width: 500px; 
+  height: 40px;
+  box-sizing: border-box; 
+  border-radius: 5px;
+}
+
+
+
+button {
+  border: 3px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #333;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 15px 20px rgba(1, 10, 10, 1);
+}
+
+#login_p{
+  color: rgba(0, 31, 63, 1);
+  font-weight: bold;
+  position: relative;
+  left: 30px;
+}
+
+#div_login {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* @media (min-width:600px) and (max-width: 700px){
+  login-container{
+    width: 50%;
+  }
+
+} */

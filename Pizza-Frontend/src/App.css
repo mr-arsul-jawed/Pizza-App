@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------------Other things.css----------- */
+/* html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Forcing the main content to take up the remaining height */
+/* .main-content {
+  flex: 1; 
+  padding-bottom: 50px; 
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

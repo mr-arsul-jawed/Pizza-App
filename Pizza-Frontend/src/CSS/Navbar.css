@@ -1,0 +1,54 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(60, 55, 55);
+    padding: 10px;
+    border-bottom: 1px solid #e2e6ea;
+    line-height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  #nav_h2{
+   color: orange;
+   margin-right: auto;
+   font-size: 28px;
+   
+  
+  }
+  #nav_button1, #nav_button2 {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adds space between the icon and text */
+  }
+  
+  .fa-icon {
+    font-size: 1.2em; /* Adjust the icon size if needed */
+  }
+  
+  .nav_things{
+   position: relative;
+   right: 12px;
+   text-decoration: none;
+   /* font-size: 17px; */
+   color: white;
+   justify-content: center;
+   margin: 0 10px;
+   border-radius: 15px;
+  
+  }
+  
+  #nav_button1, #nav_button2 {
+    color: white;
+    margin: 10px;
+    background-color: #0c4481;
+    border-radius: 15px;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 15px;
+  }

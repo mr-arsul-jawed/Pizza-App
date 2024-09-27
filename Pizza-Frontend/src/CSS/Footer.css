@@ -1,0 +1,108 @@
+.footer_change {
+ 
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fied;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content:end;
+    flex-wrap: wrap;
+  }
+  
+  .container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4 {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  #follow-us {
+    font-size: 18px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom img {
+    height: 30px;
+  }
+  
+  .app-store-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .app-store-links img {
+    height: 80px;
+    width: 140px;
+    margin: 0 10px;
+    position: relative;
+    left: 50px;
+  }
+  
+  #feedback {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  #copy {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  #fssai {
+    background-color: wheat;
+    height: 60px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+  }
+  
+  #icone {
+    position: relative;
+    top: 50px;
+    left: 3px;
+    margin: 5px;
+    font-size: 25px;
+  }
